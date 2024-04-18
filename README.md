@@ -1,2 +1,0 @@
-# hiker
-Hiking dev
