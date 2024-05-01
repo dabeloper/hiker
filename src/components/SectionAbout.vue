@@ -46,11 +46,3 @@
     </div>
   </section>
 </template>
-
-<style scoped>
-.service-item {
-  background: rgba(0, 0, 0, 0.25);
-  border-radius: 1rem;
-  padding: 0.25rem;
-}
-</style>

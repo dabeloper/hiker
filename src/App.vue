@@ -20,18 +20,18 @@
         <div id="main-nav" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li>
-              <a href="#" class="scroll-top">{{ $t('app.menuHome') }}</a>
+              <a href="#" class="nav-link scroll-top" data-id="home">{{ $t('app.menuHome') }}</a>
             </li>
             <li>
-              <a href="#" class="scroll-link" data-id="about">{{ $t('app.menuAbout') }}</a>
+              <a href="#" class="nav-link scroll-link" data-id="about">{{ $t('app.menuAbout') }}</a>
             </li>
             <li>
-              <a href="#" class="scroll-link" data-id="mapics">{{ $t('app.menuPics') }}</a>
+              <a href="#" class="nav-link scroll-link" data-id="mapics">{{ $t('app.menuPics') }}</a>
             </li>
             <li>
               <a
                 href="#"
-                class="scroll-link"
+                class="nav-link scroll-link"
                 data-id="quotes"
                 v-if="dabeloper.quotes?.length > 0"
                 >{{ $t('app.menuQuotes') }}</a

@@ -219,6 +219,19 @@ span.block {
   margin-left: 45px;
 }
 
+.navbar-nav > li > a.active {
+  color: #3eb983 !important;
+  text-shadow: 0 -1px 0 rgb(62 185 131) !important;
+  text-decoration-color: #3eb983;
+  text-decoration: wavy underline #3eb983;
+}
+.navbar-nav > li > a:hover {
+  text-decoration: wavy underline #121212;
+}
+.navbar-nav > li > a.active:hover {
+  text-decoration: wavy underline #3eb983;
+}
+
 .header.active .navbar-nav > li > a {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 13px;
@@ -372,6 +385,10 @@ span.block {
 
 #about .service-item {
   text-align: center;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  padding: 2rem .25rem 0.5rem .25rem;
+  font-size: larger;
 }
 
 #about .service-item .icon {
@@ -403,6 +420,8 @@ span.block {
 #about .service-item p {
   color: #fff;
   margin-top: 30px;
+  text-align: start;
+  padding: 0 1.5rem;
 }
 
 #about .service-item .primary-blue-button {
@@ -826,6 +845,10 @@ footer .contact-info ul li {
 footer .contact-info ul li em {
   font-style: normal;
   font-weight: 500;
+}
+
+footer .connect-us {
+  margin-top: 2.5rem;
 }
 
 footer .connect-us h4 {
